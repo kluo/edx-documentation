@@ -1877,156 +1877,15 @@ for a problem and it is graded successfully.
 Forum Events
 ==========================
 
-``edx.forum.discussion.created``
-*********************************
 
-After a user creates a new thread by clicking **New Post** and then submitting
-their contribution, the server emits an ``edx.forum.discussion.created``
-event.
+****from mongo description
 
-**Component**: Discussion
-
-**Event Source**: Server
-
-**History**: Added 23 Dec 2014.
-
-``event`` **Member Fields**:
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``anonymous``
-     - Boolean
-     - Applies only to courses that allow discussion posts that are anonymous
-       to all other users.
-       
-       'true' if the user selected the **Post Anonymously** check box.
-
-       'false' if the user cleared the **Post Anonymously** check box
-
-   * - ``anonymous_to_peers``
-     - Boolean
-     - 
-     - Applies only to courses that allow discussion posts that are anonymous
-       to other students. The username of the thread creator remains visible
-       to users who have discussion-level privileges.
-       
-       'true' if the user selected the **Post Anonymously** check box.
-
-       'false' if the user cleared the **Post Anonymously** check box
-
-
-   * - ``body``
-     - string
-     - The text supplied for the post.
-   * - ``category_id``
-     - 
-     - 
-   * - ``category_name``
-     - string
-     - 
-   * - ``commentable_id``
-     - string
-     - 
-   * - ``id``
-     - string
-     - 
-   * - ``options``
-     - dictionary
-     - 
-   * - ``title``
-     - string
-     - Descriptive text supplied to identify the post.
-   * - ``truncated``
-     - Boolean
-     - 'true' if . 
-       
-       'false' if .
-
-   * - ``url``
-     - string
-     - 
-   * - ``user_course_role``
-     - string
-     - Identifies the course-level privileges assigned to the user.
-
-       Each user is a 'Student' or a course 'Beta Tester', Instructor', or
-       'Course Staff' member.
-
-   * - ``user_forums_role``
-     - string
-     - Identifies the discussion-level privileges assigned to the user.
-
-       Each user is a 'Student' or a 'Community TA', 'Discussion Moderator',
-       or 'Discussion Admin'.
-
-
-
-
-``edx.forum.response.created``
-*********************************
-
-
-**Component**: Discussion
-
-**Event Source**: Server
-
-**History**: Added 23 Dec 2014. 
-
-``event`` **Member Fields**:
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``body``
-     - string
-     - 
-   * - ``category_id``
-     - 
-     - 
-   * - ``category_name``
-     - string
-     - 
-   * - ``commentable_id``
-     - string
-     - 
-   * - ``discussion``
-     - 
-     - 
-   * - ``id``
-     - string
-     - 
-   * - ``options``
-     - dictionary
-     - 
-   * - ``truncated``
-     - Boolean
-     - 'true' if . 
-       
-       'false' if .
-
-   * - ``url``
-     - string
-     - 
-   * - ``user_course_role``
-     - 
-     - 
-   * - ``user_forums_role``
-     - 
-     - 
 
 
 ``edx.forum.comment.created``
 *********************************
 
+****
 
 **Component**: Discussion
 
@@ -2036,6 +1895,21 @@ event.
 
 ``event`` **Member Fields**:
 
+The ``edx.forum.comment.created`` events include many of the same ``event``
+member fields as described for :ref:`forum_thread` and :ref:`forum_response`
+events. The following member fields serve the same purpose for comments as for
+threads or reponses.
+
+* ``body``
+* ``commentable_id``
+* ``discussion``
+* ``id``
+* ``options``
+* ``truncated``
+* ``url``
+* ``user_course_role``
+* ``user_forums_role``
+
 .. list-table::
    :widths: 15 15 60
    :header-rows: 1
@@ -2043,45 +1917,55 @@ event.
    * - Field
      - Type
      - Details
-   * - ``body``
-     - string
-     - 
-   * - ``category_id``
-     - 
-     - 
-   * - ``category_name``
-     - string
-     - 
-   * - ``commentable_id``
-     - string
-     - 
+   * - ``response``
+     - dictionary
+     - Contains a member ``id`` field with a hash string value. Identifies the
+       response that the user posted this comment on.
+
+.. _forum_response:
+
+``edx.forum.response.created``
+*********************************
+
+****
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+**History**: Added 31 Jan 2015. 
+
+``event`` **Member Fields**:
+
+The ``edx.forum.response.created`` events include many of the same ``event``
+member fields as described for :ref:`forum_thread` events. The following
+member fields serve the same purpose for reponses as for threads.
+
+* ``body``
+* ``commentable_id``
+* ``id``
+* ``options``
+* ``truncated``
+* ``url``
+* ``user_course_role``
+* ``user_forums_role``
+
+The following additional ``event`` member field applies specifically to
+``edx.forum.response.created`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
    * - ``discussion``
      - dictionary
-     - contains an ``id`` member field
-   * - ``id``
-     - string
-     - 
-   * - ``options``
-     - dictionary
-     - contains a ``followed`` member field Boolean
-   * - ``response``
-     - 
-     - 
-   * - ``truncated``
-     - Boolean
-     - 'true' if . 
-       
-       'false' if .
+     - Contains a member ``id`` field with a hash string value. Identifies the
+       thread that the user posted this response to.
 
-   * - ``url``
-     - string
-     - 
-   * - ``user_course_role``
-     - string
-     - 
-   * - ``user_forums_role``
-     - string
-     - 'Student', 
+       Also present for ``edx.forum.comment.created`` events.
 
 
 ``edx.forum.searched``
@@ -2141,6 +2025,130 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
    * - ``total_results``
      - integer
      - The total number of results matching the query.
+
+.. _forum_thread:
+
+``edx.forum.thread.created``
+*********************************
+
+Users create a new thread by clicking **New Post** and then submitting their
+contribution. When these actions are complete, the server emits an
+``edx.forum.thread.created`` event.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+**History**: Added 31 Jan 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``anonymous``
+     - Boolean
+     - Applies only to courses that allow discussion posts that are anonymous
+       to all other users.
+       
+       'true' if the user selected the **Post Anonymously** check box.
+
+       'false' if the user cleared the **Post Anonymously** check box.
+
+   * - ``anonymous_to_peers``
+     - Boolean
+     - Applies only to courses that allow discussion posts that are anonymous
+       to other students. The username of the thread creator remains visible
+       to users who have discussion management privileges.
+       
+       'true' if the user selected the **Post Anonymously** check box.
+
+       'false' if the user cleared the **Post Anonymously** check box.
+
+   * - ``body``
+     - string
+     - The text supplied for the new post.
+       
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+
+   * - ``category_id``
+     - string
+     - 
+   * - ``category_name``
+     - string
+     - 
+   * - ``commentable_id`` ****
+     - string
+     - 
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
+   * - ``group_id`` ****
+     - string
+     - 
+   * - ``id`` ****
+     - string
+     - 
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
+   * - ``options`` ****
+     - dictionary
+     - ``followed`` Boolean
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
+   * - ``thread_type``
+     - string
+     - Characterizes the purpose of the post. The person who creates the
+       thread selects either 'discussion' or 'question'.
+   * - ``title``
+     - string
+     - Brief descriptive text supplied to identify the post.
+   * - ``truncated`` ****
+     - Boolean
+     - 'true' if . 
+       
+       'false' if .
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
+   * - ``url``
+     - string
+     - The escaped URL of the page the user was visiting when this event was
+       emitted.
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
+   * - ``user_course_role``
+     - string
+     - Identifies the course-level privileges assigned to the user.
+
+       A user can be a 'student' or a course 'instructor' or 'staff' member.
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
+   * - ``user_forums_role``
+     - string
+     - Identifies the discussion-level privileges assigned to the user.
+
+       A user can be a 'student' or a course 'community ta', 'moderator',
+       or 'admin'.
+
+       Also present for ``edx.forum.response.created`` and
+       ``edx.forum.comment.created`` events.
+       
 
 .. _ora2:
 
