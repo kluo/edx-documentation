@@ -2,6 +2,33 @@
 edX Studio
 ####################################
 
+******************
+January 21, 2015
+******************
+
+* If you include cohorts in your course, you can now assign different course
+  content to different cohorts. See `Cohorted Courseware Overview`_ for more
+  details.
+
+* MathJax, which Studio and the LMS use to render text as "beautiful math",
+  is now upgraded to version 2.4 from version 2.2. (OSPR-21) 
+
+  For more information, see the descriptions of `MathJax 2.4`_ and `MathJax
+  2.3`_.
+
+* When you create a new course in Studio, edit checks now identify special
+  characters in the **Organization**, **Course Number**, or **Course Run**
+  fields. An error message now appears to prevent entry of spaces or
+  characters such as !, ', (, or ). (SOL-233)
+
+================
+Coming Soon
+================
+
+Course teams will soon have the ability to apply a Creative Commons license to
+their course videos. Creative Commons licenses grant others the right to share
+and use content. When students view a video, they will be able to see the type
+of license that it has.
 
 *****************
 January 14, 2015

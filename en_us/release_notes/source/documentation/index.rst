@@ -3,6 +3,38 @@ edX Documentation
 ####################################
 
 ******************
+January 21, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+A new section on `Creating Cohort-Specific Courseware`_ is now included in the
+guide.
+
+=================================
+edX Platform Developer's Guide
+=================================
+
+To support packaged releases for Open edX better, the source files for the
+`edX Platform Developer's Guide`_ are now located in the GitHub edx-
+documentation repository.
+
+==================
+Student Guide
+==================
+
+Answers to frequently asked questions about the edX mobile app are now
+available in the `The edX Mobile App`_ section of this guide.
+
+==================================
+edX Research Guide
+==================================
+
+This guide now includes a description of the new `Email Opt In Report`_.
+
+******************
 January 14, 2015
 ******************
 
@@ -28,12 +60,11 @@ Building and Running an edX Course
   are updated to clarify that the visual editor is not supported for course
   handouts.
 
-
 ==================================
 edX Research Guide
 ==================================
 
-* Updated information is available for video events that the the edX mobile app
+* Updated information is available for video events that the edX mobile app
   emits. See the `Tracking Logs`_ chapter.
 
 ======================================

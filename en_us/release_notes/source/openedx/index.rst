@@ -2,11 +2,13 @@
 Open edX Release Notes
 ####################################
 
-The following pages list changes to Open edX:
+******************
+January 21, 2015
+******************
 
-.. toctree::
-   :maxdepth: 1
-
+As part of an accelerating effort to better support Open edX and packaged
+releases, we have moved source files for the `edX Platform Developer's Guide`_
+that were in the edx-platform repo to the edX-documentation repo.
    
 
 .. include:: ../links.rst
