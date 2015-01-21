@@ -3,7 +3,7 @@ edX Analytics
 ####################################
 
 ******************
-January 21, 2015
+January 22, 2015
 ******************
 
 Data packages now include a .csv file of the email preference that each student

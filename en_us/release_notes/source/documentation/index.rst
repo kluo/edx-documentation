@@ -3,23 +3,24 @@ edX Documentation
 ####################################
 
 ******************
-January 21, 2015
+January 22, 2015
 ******************
 
 ==================================
 Building and Running an edX Course
 ==================================
 
-A new section on `Creating Cohort-Specific Courseware`_ is now included in the
-guide.
+The guide now includes a new section about creating different course
+experiences for students in different cohorts. For more information, see
+`Creating Cohort-Specific Courseware`_.
 
 =================================
 edX Platform Developer's Guide
 =================================
 
 To support packaged releases for Open edX better, the source files for the
-`edX Platform Developer's Guide`_ are now located in the GitHub edx-
-documentation repository.
+`edX Platform Developer's Guide`_ are now located in the GitHub 
+edx-documentation repository.
 
 ==================
 Student Guide
@@ -42,7 +43,7 @@ January 14, 2015
 edX Enrollment API Version 1
 ============================
 
-* The `edX Enrollment API`_ guide is now available.
+The `edX Enrollment API`_ guide is now available.
 
 ******************
 January 8, 2015
@@ -64,8 +65,8 @@ Building and Running an edX Course
 edX Research Guide
 ==================================
 
-* Updated information is available for video events that the edX mobile app
-  emits. See the `Tracking Logs`_ chapter.
+Updated information is available for video events that the edX mobile app
+emits. See the `Tracking Logs`_ chapter.
 
 ======================================
 edX Data Analytics API Version 0 Alpha

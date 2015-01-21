@@ -3,23 +3,21 @@ edX Studio
 ####################################
 
 ******************
-January 21, 2015
+January 22, 2015
 ******************
 
 * If you include cohorts in your course, you can now assign different course
   content to different cohorts. See `Cohorted Courseware Overview`_ for more
   details.
 
-* MathJax, which Studio and the LMS use to render text as "beautiful math",
-  is now upgraded to version 2.4 from version 2.2. (OSPR-21) 
-
-  For more information, see the descriptions of `MathJax 2.4`_ and `MathJax
-  2.3`_.
+* MathJax, which Studio and the LMS use to render text as "beautiful math", is
+  now upgraded to version 2.4 from version 2.2. For more information, see the
+  descriptions of `MathJax 2.4`_ and `MathJax 2.3`_. (OSPR-21)
 
 * When you create a new course in Studio, edit checks now identify special
   characters in the **Organization**, **Course Number**, or **Course Run**
-  fields. An error message now appears to prevent entry of spaces or
-  characters such as !, ', (, or ). (SOL-233)
+  fields. An error message appears to prevent entry of spaces or characters
+  such as !, ', (, or ). (SOL-233)
 
 ================
 Coming Soon
@@ -34,9 +32,9 @@ of license that it has.
 January 14, 2015
 *****************
 
-* When you made multiple attempts to log in to edX Studio with the wrong
-  password, the error message was not refreshed and there was no indication of
-  the problem on subsequent attempts. This problem is resolved. (TNL-140)
+When you made multiple attempts to log in to edX Studio with the wrong
+password, the error message was not refreshed and there was no indication of
+the problem on subsequent attempts. This problem is resolved. (TNL-140)
 
 ***************
 January 8, 2015

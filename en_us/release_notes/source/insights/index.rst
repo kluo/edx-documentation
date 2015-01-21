@@ -3,7 +3,7 @@ edX Insights
 ####################################
 
 ******************
-January 21, 2015
+January 22, 2015
 ******************
 
 The student engagement data computed for edX Insights is now updated as soon as

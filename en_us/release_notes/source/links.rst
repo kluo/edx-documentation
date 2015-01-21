@@ -378,4 +378,4 @@
 
 .. _MathJax 2.3: http://docs.mathjax.org/en/latest/whats-new-2.3.html#whats-new-2-3
 
-.. _Creating Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html
+.. _Creating Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#creating-cohort-specific-courseware
