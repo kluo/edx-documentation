@@ -152,16 +152,16 @@ to scroll to the end of the list of available reports.
 **Why are some problems missing from this report? The ones that are missing do
 have the problem types listed under** :ref:`Review_Answers`.
 
-This report includes only problems that at least one student has answered since
-early March 2014. For those problems, this report only includes activity that
-occurred after October 2013.
+This report includes only problems that at least one student has answered
+since March 6, 2014. For those problems, this report only includes activity
+that occurred after October 23, 2013.
 
 **Why don't I see an AnswerValue for some of my problems?**
 
 For checkboxes and multiple choice problems, the answer choices actually
-selected by a student after early March 2014 display as described in the
-previous answer. Answer choices selected by at least one student after October
-2013, but not selected since early March 2014, are included on the report but do
+selected by a student after March 6, 2014 display as described in the previous
+answer. Answer choices selected by at least one student after October 23,
+2013, but not selected since March 6, 2014, are included on the report but do
 not include an **AnswerValue**. The **ValueID** does display the internal
 identifiers, such as choice_1 and choice_2, for those answers.
 
@@ -172,7 +172,7 @@ For more information about how to set up labels for problems, see :ref:`Create
 Exercises`.
 
 Also, for problems that use the **Randomization** setting in Studio, if a
-particular answer has not been selected since early March 2014, the **Question**
+particular answer has not been selected since March 6, 2014, the **Question**
 is blank for that answer.
 
 **My students are saying that they answered a question, but it isn't showing up

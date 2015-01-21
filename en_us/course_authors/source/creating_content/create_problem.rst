@@ -296,9 +296,15 @@ problems is unlimited. If the course-wide **Maximum Attempts** setting is
 changed to a specific number, the **Maximum Attempts** setting for individual
 problems defaults to that number, and cannot be set to unlimited.
 
-.. note:: Only questions that have a **Maximum Attempts** setting of 1 or 
- higher are included in the answer distribution computations used in edX
- Insights and the Student Answer Distribution report.
+You can set **Maximum Attempts** to 0 for a problem. If you do so, the
+**Check** button is not presented for that problem. Students can only save
+their answers, and, optionally, :ref:`show the answer<Show Answer>` for the
+problem.
+
+.. note:: Only questions that have **Maximum Attempts** set to 1 or higher are 
+ included in the answer distribution computations used by edX Insights and the
+ Student Answer Distribution report. For more information, see `Using edX
+ Insights`_ or :ref:`Student_Answer_Distribution`.
 
 .. _Problem Weight:
 
@@ -594,7 +600,7 @@ problems can be different types.
 To create multiple problems in one component, create a new Blank Advanced
 Problem component, and then add the XML for each problem in the component
 editor. You only need to include the XML for the problem and its answers. You
-don't have to include the code for other elements, such as the **Check**
+do not have to include the code for other elements, such as the **Check**
 button.
 
 Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
@@ -613,7 +619,7 @@ Problem Randomization
 ===========================
 
 You may want to present different students with different problems, or
-different versions of the same problem. To do this, you'll create a Problem
+different versions of the same problem. To do this, you create a Problem
 component for each problem or version in Studio, and then edit your course
 outside of Studio to randomize the problem that students see.
 
@@ -626,13 +632,13 @@ versions to different students.
  to export your course, edit some of your course's XML files in a text editor,
  and then re-import your course. We recommend that you create a backup copy of
  your course before you do this. We also recommend that you only edit your
- course files in the text editor if you're very familiar with editing XML.
+ course files in the text editor if you are very familiar with editing XML.
 
 Terminology
 ************
 
 Sections, subsections, units, and components have different names in the
-**Course Outline** view and in the list of files that you'll see after you
+**Course Outline** view and in the list of files that you see after you
 export your course and open the .xml files for editing. The following table
 lists the names of these elements in the **Course Outline** view and in a list
 of files.
@@ -654,7 +660,7 @@ of files.
 
 For example, when you want to find a specific section in your course, you'll
 look in the **Chapter** folder when you open the list of files that your course
-contains. To find a unit, you'll look in the **Vertical** folder.
+contains. To find a unit, look in the **Vertical** folder.
 
 .. _Create Randomized Problems:
 
@@ -663,7 +669,7 @@ Create Randomized Problems
 
 #. In the unit where you want to create a randomized problem, create a separate
    Problem component for each version or problem that you want to randomize.
-   For example, if you want to offer four versions or problems, you'll create
+   For example, if you want to offer four versions or problems, you create
    four separate Problem components. Make a note of the 32-digit unit ID that
    appears in the **Unit Identifier** field under **Unit Location**.
 
@@ -675,7 +681,7 @@ Create Randomized Problems
    .tar.gz file so that you can see its contents in a list of folders and
    files.
 
-   To do this on a Windows computer, you'll need to download a third-party
+   To do this on a Windows computer, you need to download a third-party
    program. For more information, see `How to Unpack a tar File in Windows
    <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_,
    `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_, `The
@@ -695,10 +701,10 @@ Create Randomized Problems
     then open the **Vertical** folder in the **Drafts** folder.
 
 #. In the **Vertical** folder, locate the .xml file that has the same name as
-   the unit ID that you noted in step 1, and then open the file in a text
-   editor such as Sublime 2. For example, if the unit ID is
-   e461de7fe2b84ebeabe1a97683360d31, you'll open the
-   e461de7fe2b84ebeabe1a97683360d31.xml file.
+   the unit ID that you noted in step 1. For example, if the unit ID is
+   e461de7fe2b84ebeabe1a97683360d31, locate the
+   e461de7fe2b84ebeabe1a97683360d31.xml file. You can then open the file in a
+   text editor such as Sublime.
 
    The file contains a list of all the components in the unit, together with
    the URL names of the components. For example, the following file contains
@@ -744,9 +750,9 @@ Create Randomized Problems
 
 .. note::
 
-  * Once you've implemented randomization, you can only see one of the versions
+  * After you implement randomization, you can only see one of the versions
     or problems in Studio. You can edit that single problem directly in Studio,
-    but to edit any of the other problems, you'll have to export your course,
+    but to edit any of the other problems, you must export your course,
     edit the problems in a text editor, and then re-import the course. This is
     true for instructors as well as course teams.
   
