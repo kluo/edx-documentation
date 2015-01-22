@@ -35,6 +35,7 @@ edX product.
    ora/index
    studio/index
    website/index
+   xblocks/index
 
 ******************
 Previous Releases

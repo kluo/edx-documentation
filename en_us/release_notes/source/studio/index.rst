@@ -10,6 +10,11 @@ January 22, 2015
   content to different cohorts. See `Cohorted Courseware Overview`_ for more
   details.
 
+* All courses created after January 14, 2015 now use the `key introspection
+  API`_ format for internal course identifiers and the course URL. An example
+  of the new URL format is:
+  ``http://www.edx.org/courses/course-v1:edX+DemoX+Demo_2014/info``.
+
 * MathJax, which Studio and the LMS use to render text as "beautiful math", is
   now upgraded to version 2.4 from version 2.2. For more information, see the
   descriptions of `MathJax 2.4`_ and `MathJax 2.3`_. (OSPR-21)

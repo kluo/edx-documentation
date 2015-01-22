@@ -379,3 +379,7 @@
 .. _MathJax 2.3: http://docs.mathjax.org/en/latest/whats-new-2.3.html#whats-new-2-3
 
 .. _Creating Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#creating-cohort-specific-courseware
+
+.. _key introspection API: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2014/06-10-2014.html?highlight=urls#the-new-key-introspection-api
+
+.. _Installing edX Insights: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/analytics/install_analytics.html#installing-edx-insights

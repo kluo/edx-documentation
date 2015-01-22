@@ -10,9 +10,9 @@ January 22, 2015
 Building and Running an edX Course
 ==================================
 
-The guide now includes a new section about creating different course
-experiences for students in different cohorts. For more information, see
-`Creating Cohort-Specific Courseware`_.
+This guide now includes a new section about creating different course
+experiences for students who are assigned to different cohorts. For more
+information, see `Creating Cohort-Specific Courseware`_.
 
 =================================
 edX Platform Developer's Guide
@@ -28,6 +28,12 @@ Student Guide
 
 Answers to frequently asked questions about the edX mobile app are now
 available in the `The edX Mobile App`_ section of this guide.
+
+=======================================================
+Installing, Configuring, and Running the edX Platform
+=======================================================
+
+This guide now includes a new chapter, `Installing edX Insights`_.
 
 ==================================
 edX Research Guide
