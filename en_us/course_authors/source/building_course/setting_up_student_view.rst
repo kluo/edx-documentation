@@ -252,9 +252,15 @@ page:
 Add a Course Image
 ************************
 
-The course image that you add in Studio appears on the student dashboard. 
+The course image that you add in Studio appears on the student dashboard as part
+of the course listing. 
 
-On Edge_, the image also appears on the course summary page.
+The course image should be a minimum of 378 pixels in width by 225 pixels in
+height, and in .JPG or .PNG format. 
+
+.. note:: On edX.org_, the course image you add in Studio does not appear on the
+  course summary page automatically. You must work directly with your edX
+  Program Manager to set up the course summary page.
 
 In the following example, the course image that was added in Studio is circled
 in the student dashboard:
@@ -262,18 +268,13 @@ in the student dashboard:
 .. image:: ../Images/dashboard-course-image.png
  :alt: Image of the course image in the student dashboard
 
-On edX.org_, the course image you add in Studio does not appear on the course
-summary page automatically. You must work directly with your edX Program Manager
-to set up the course summary page.
-
-The course image should be a minimum of 660 pixels in width by 240 pixels in
-height, and in .JPG or .PNG format.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 #. Scroll down to the **Course Image** section.
 #. To select an image from your computer, click **Upload Course Image**, then
    follow the prompts to find and upload your image.
 #. View your dashboard to test how the image will appear to students.
+
 
 .. _Add a Course Video:
 
