@@ -46,9 +46,6 @@ Studio, as described in this chapter:
 .. image:: ../Images/about_page.png
  :alt: An image of the course summary page.
 
-
-
-
 .. _The Student Dashboard:
 
 ***********************************
@@ -63,8 +60,6 @@ see the start date, as explained in this chapter.
 
 .. image:: ../Images/dashboard.png
  :alt: An image of the dashboard
-
-
 
 .. _Set Important Dates for Your Course:
 
@@ -84,7 +79,6 @@ Follow the on-screen text to enter the course and enrollment schedule.
 .. note:: 
  The Time fields on this page, and the times that students see, use UTC
  (Universal Coordinated Time)
-
 
 .. _The Course Start Date:
 
@@ -124,9 +118,6 @@ courses, as in the following examples.
 
 .. note:: If you do not specify a start time for your course, students see
    the default start time, 00:00 Coordinated Universal Time (UTC).
-
-
-
 
 .. _Set the Advertised Start Date:
 
@@ -209,7 +200,6 @@ examples.
   .. image:: ../Images/dashboard-completed-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
-
 
 .. _Describe Your Course:
 
@@ -341,7 +331,6 @@ The estimated Effort per Week appears at the bottom of the course summary page.
 #. View your course summary page to test how the requirements will appear to
    students.
 
-
 .. _Set Content Licensing:
 
 ************************************************
@@ -361,10 +350,10 @@ Details** page.
 * Select **Creative Commons** to grant others to right to share and use course
   content. You must then select the Creative Commons license options to apply:
 
-  SCREEN SHOT WHEN UI FIXED
+  .. image:: ../Images/creative-commons-license-course.png
+   :alt: The Creative Commons license options
 
-  See :ref:`Creative Commons Licensing` for more information about license
-  options.
+  See :ref:`Licensing a Course` for more information about license options.
 
   The license options you select control the copyright notice students see in
   the courseware.

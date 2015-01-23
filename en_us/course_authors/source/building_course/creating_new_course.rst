@@ -77,10 +77,10 @@ Create a New Course
     course content. You must then select the Creative Commons license options
     to apply:
 
-    SCREEN SHOT WHEN UI FIXED
+    .. image:: ../Images/creative-commons-license-course.png
+      :alt: The Creative Commons license options
 
-    See :ref:`Creative Commons Licensing` for more information about license
-    options.
+    See :ref:`Licensing a Course` for more information about license options.
 
   The license options you select control the copyright notice students see in
   the courseware.

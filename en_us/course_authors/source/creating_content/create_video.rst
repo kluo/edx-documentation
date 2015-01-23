@@ -309,6 +309,26 @@ The following options appear on the **Advanced** tab in the video component.
     * - **EdX Video ID**
       - An optional field used only by course teams that are working with
         edX to process and host video files.
+    
+    * - **License**
+      - Set the licensing for the video:
+
+        * Select **All Rights Reserved** to indicate to students that you own
+          the copyright for the video.
+
+        * Select **Creative Commons** to grant others to right to share and use
+          the video. You must then select the Creative Commons license options
+          to apply:
+
+          .. image:: ../Images/creative-commons-license-course.png
+            :alt: The Creative Commons license options
+
+          See :ref:`Licensing a Course` for more information about license
+          options.
+
+          The license options you select control the copyright notice students
+          see for the video.
+
     * - **Show Transcript**
       - Specifies whether the transcript plays along with the video by default.
     * - **Transcript Languages**
