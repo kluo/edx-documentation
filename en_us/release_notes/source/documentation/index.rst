@@ -3,7 +3,7 @@ edX Documentation
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
 ==================================
@@ -11,7 +11,7 @@ Building and Running an edX Course
 ==================================
 
 This guide now includes a new section about creating different course
-experiences for students who are assigned to different cohorts. For more
+experiences for learners who are assigned to different cohorts. For more
 information, see `Creating Cohort-Specific Courseware`_.
 
 =================================

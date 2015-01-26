@@ -3,7 +3,7 @@ edX Mobile App
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
 The edX mobile app is now available for iPhone and Android smartphones. With

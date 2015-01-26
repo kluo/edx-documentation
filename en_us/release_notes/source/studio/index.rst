@@ -3,12 +3,12 @@ edX Studio
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
 * If you include cohorts in your course, you can now assign different course
   content to different cohorts. See `Cohorted Courseware Overview`_ for more
-  details.
+  details. 
 
 * All courses created after January 14, 2015 now use the `key introspection
   API`_ format for internal course identifiers and the course URL. An example
@@ -24,13 +24,17 @@ January 22, 2015
   fields. An error message appears to prevent entry of spaces or characters
   such as !, ', (, or ). (SOL-233)
 
+* You can now configure LTI components to define whether grading includes
+  learner submissions made after the subsection due date. Previously, learners
+  could always submit responses after the due date. (TNL-805)
+
 ================
 Coming Soon
 ================
 
 Course teams will soon have the ability to apply a Creative Commons license to
 their course videos. Creative Commons licenses grant others the right to share
-and use content. When students view a video, they will be able to see the type
+and use content. When learners view a video, they will be able to see the type
 of license that it has.
 
 *****************

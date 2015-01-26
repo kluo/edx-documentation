@@ -3,7 +3,7 @@ edX XBlocks
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
 All courses created after January 14, 2015 now use the `key introspection

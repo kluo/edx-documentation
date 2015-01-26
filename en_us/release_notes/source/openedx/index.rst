@@ -1,9 +1,9 @@
 ####################################
-Open edX Release Notes
+Open edX
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
 As part of an accelerating effort to better support Open edX and packaged

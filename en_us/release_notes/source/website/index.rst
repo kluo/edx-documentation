@@ -3,7 +3,7 @@ edX Website
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
 Users who have not yet activated their edx.org accounts can now reset their

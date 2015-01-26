@@ -3,13 +3,13 @@ edX Analytics
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
-Data packages now include a .csv file of the email preference that each student
+Data packages now include a .csv file of the email preference that each learner
 supplies when they enroll in your institution's courses on edx.org. The file
 includes data collected across all of an institution's edx.org courses. For
-more information, see :ref:`Email Opt In Report` in the *Research Guide*.
+more information, see `Email Opt In Report`_ in the *Research Guide*.
 
 .. _Analytics January 8, 2015:
 

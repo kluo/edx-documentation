@@ -3,10 +3,10 @@ edX Insights
 ####################################
 
 ******************
-January 22, 2015
+January 28, 2015
 ******************
 
-The student engagement data computed for edX Insights is now updated as soon as
+The learner engagement data computed for edX Insights is now updated as soon as
 weekly computations are complete. Previously, updates were delayed by as much
 as 24 hours. (AN-4150)
 
