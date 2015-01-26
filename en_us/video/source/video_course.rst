@@ -33,7 +33,7 @@ Copy the edX Video ID
    component. See :ref:`Add the edX Video ID to a Video Component`.
 
    .. note:: The video ID is available for every uploaded file. However, 
-    for a video component to deliver its content to students, the video
+    for a video component to deliver its content to learners, the video
     processing for that file and ID must be successful.
 
 You can also download a report of all uploaded videos on the **Video Uploads**
@@ -63,7 +63,7 @@ You complete these steps in Studio.
    then click **Edit**. The Editing: Video popup opens to the Basic tab.
    
 3. In the **Component Display Name** field, enter the identifying name that you
-   want students to see for this video.
+   want learners to see for this video.
 
 #. At the top of the Editing: Video popup click **Advanced**. Additional fields
    appear below the **Component Display Name** and **Default Timed Transcript**
@@ -80,7 +80,7 @@ You complete these steps in Studio.
    associated with this edX video ID override them.
 
 6. Set the **Video Download Allowed** field to **True** or **False** to define
-   whether students can download this video.
+   whether learners can download this video.
 
 #. Click **Save**. The referenced video appears in the video component.
 
