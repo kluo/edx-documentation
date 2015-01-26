@@ -24,9 +24,9 @@ January 28, 2015
   fields. An error message appears to prevent entry of spaces or characters
   such as !, ', (, or ). (SOL-233)
 
-* You can now configure LTI components to define whether grading includes
-  learner submissions made after the subsection due date. Previously, learners
-  could always submit responses after the due date. (TNL-805)
+* For LTI components, you can now set the new **Accept grade past deadline**
+  setting to True or False. Previously, grading always included learner
+  submissions that were submitted after the subsection due date. (TNL-805)
 
 ================
 Coming Soon
